@@ -31,3 +31,37 @@
     border-top-right-radius: 50px;
     padding-left: 20px;
 }
+.input-github{
+    min-height: 28px;
+    border: 0;
+    outline: 0;
+    box-shadow: none;
+    display: table-cell;
+    font-size: inherit;
+    padding-bottom: 0;
+    padding-top: 0;
+    line-height: 20px;
+    padding: 5px 12px;
+    vertical-align: middle;
+    margin: 0;
+    border-radius: 6px;
+}
+
+.github-dark{
+    background-color: #0d1117;
+    caret-color: white;
+    color: white;
+}
+.github-light{
+    background-color: #0d1117;
+    caret-color: white;
+    color: white;
+}
+.github-light:focus{
+    background-color: white;
+    caret-color: black;
+    color: black;
+}
+.input-github:focus{
+    box-shadow:0 0 0 .1rem #1f6feb
+}
