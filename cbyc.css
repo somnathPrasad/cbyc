@@ -1,0 +1,33 @@
+.centre-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}.space-evenly{
+    justify-content: space-evenly;
+}.space-between{
+    justify-content:space-between;
+}.btn{
+    padding: 10px 20px 10px 20px; /*top right bottom left*/
+    font-size: inherit;
+    letter-spacing: 1px;
+    border-radius: 3px;  
+    border-width: 1px;
+}
+.input{
+    font-size: large;
+    padding: 10px;
+    letter-spacing: 0.4vh;
+    outline: none;
+}
+.input::placeholder{
+    padding: 10px;
+    letter-spacing: normal;
+}
+.input-no-corner{
+    border-width: 1px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    padding-left: 20px;
+}
